@@ -1,0 +1,76 @@
+//
+//  DearMentor-Prefix.pch
+//  DearMentor
+//
+//  Created by tonystark on 15/12/6.
+//  Copyright © 2015年 cdyzjy. All rights reserved.
+//
+
+
+#import <Availability.h>
+
+#ifndef __IPHONE_8_0
+#warning "This project uses features only available in iOS SDK 8.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+// 系统相关的头文件
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreGraphics/CoreGraphics.h>
+#import <objc/runtime.h>
+
+// pod相关的头文件
+#import <AFNetworking.h>
+#import <AFNetworkActivityIndicatorManager.h>
+#import <SDWebImageManager.h>
+#import <UIImageView+WebCache.h>
+#import <UIButton+WebCache.h>
+#import <SwipeBack.h>
+#import <TPKeyboardAvoidingScrollView.h>
+#import <TPKeyboardAvoidingTableView.h>
+#import <TPKeyboardAvoidingCollectionView.h>
+#import <MBProgressHUD.h>
+#import <Masonry.h>
+#import <Mantle.h>
+#import <UIAlertView+Block.h>
+#import <EGOCache.h>
+#import <AVFoundation/AVFoundation.h>
+#import <AssetsLibrary/AssetsLibrary.h>
+#import <SMS_SDK/SMSSDK.h>
+#import <ShareSDK/ShareSDK.h>
+#import "MobClick.h"
+#import "define.h"
+#import "EnumDefine.h"
+
+//添加共用头文件
+#import <TTTAttributedLabel.h>
+#import "NSString+Utility.h"
+#import "NSArray+Ext.h"
+#import "UIView+Utility.h"
+#import "UIView+Tips.h"
+#import "UIButton+EdgeInsets.h"
+#import "NSDate+Category.h"
+#import "NSDateFormatter+Category.h"
+#import "JSONKit.h"
+#import "AFRequest+Cancel.h"
+#import "NSNumber+Category.h"
+#import "Api.h"
+#import "UserManager.h"
+#import "UIImage+Utility.h"
+#import "AsyncRun.h"
+#import "UINavigationController+Category.h"
+#import "CustomIOSAlertView.h"
+
+#import "RootNavigationController.h"
+
+#import "MTLFMDBAdapter.h"
+#import "SSKModel.h"
+#import "SSKModel+JSONSerializing.h"
+#import "SSKModel+PersistentStore.h"
+#import "SSKModelPersistentStore.h"
+
+#import "XMAlarm-Swift.h"
+
+#endif
